@@ -2,14 +2,14 @@
 #include "FileNotFoundException.h"
 
 
-const char* FileHandler::PatientFile      = "patients.txt";
-const char* FileHandler::DoctorFile       = "doctors.txt";
-const char* FileHandler::AdminFile        = "admin.txt";
-const char* FileHandler::AppointmentFile  = "appointments.txt";
-const char* FileHandler::BillFile         = "bills.txt";
+const char* FileHandler::PatientFile = "patients.txt";
+const char* FileHandler::DoctorFile = "doctors.txt";
+const char* FileHandler::AdminFile = "admin.txt";
+const char* FileHandler::AppointmentFile = "appointments.txt";
+const char* FileHandler::BillFile = "bills.txt";
 const char* FileHandler::PrescriptionFile = "prescriptions.txt";
-const char* FileHandler::SecurityLogFile  = "security_log.txt";
-const char* FileHandler::DischargeFile    = "discharged.txt";
+const char* FileHandler::SecurityLogFile = "security_log.txt";
+const char* FileHandler::DischargeFile = "discharged.txt";
 
 
 // Since comma sai seperated --> splitAttribute takes comma to seperate
